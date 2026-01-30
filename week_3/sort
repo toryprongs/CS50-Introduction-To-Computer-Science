@@ -1,0 +1,14 @@
+//  this file contains my conclusions after analyzing the runtime behavior
+// of the provided sorting programs
+
+sort1 uses: bubble sort
+
+How do you know?: took less time for sorted data than for random, as bubble sort stops early if no swaps are needed.
+
+sort2 uses: merge sort
+
+How do you know?: the fastest time between all sorts, both for sorted and random data (O(n log n) time)
+
+sort3 uses: selection sort
+
+How do you know?: it took almost the same time both for sorted and random data (always scans the whole array)
